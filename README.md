@@ -41,7 +41,7 @@ Then, after the utilities of states are calculated, we can use them to select an
 
 Policy iteration is another algorithm that solves MDPs. It starts with a random policy and alternates the following two steps until the policy improvement step yields no change:
 
-(1) Policy evaluation: given a policy, calculate the utility of each state U(s) if the policy is executed; 
+(1) Policy evaluation: given a policy, calculate the utility U(s) of each state s if the policy is executed; 
 
 (2) Policy improvement: update the policy based on U(s).
 
