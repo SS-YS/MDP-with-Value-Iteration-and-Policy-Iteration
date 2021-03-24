@@ -51,7 +51,7 @@ For the policy evaluation step, we use a simplified version of the Bellman equat
 
 <img src="screenshots/simplified_bellman_equation.png" width="370">
 
-For n states, there are n linear equations with n unknowns (the utilities of states), which can be solved in O(n^3) time. To make the algorithm more efficient, we can perform some simplified Bellman updates (simplified because the policy is fixed) to get an approximation of the utilities instead of calculating the exact solutions. 
+For n states, there are n linear equations with n unknowns (the utilities of states), which can be solved in O(n^3) time. To make the algorithm more efficient, we can perform some number of simplified Bellman updates (simplified because the policy is fixed) to get an approximation of the utilities instead of calculating the exact solutions. 
 
 <img src="screenshots/simplified_bellman_update.png" width="400">
 
