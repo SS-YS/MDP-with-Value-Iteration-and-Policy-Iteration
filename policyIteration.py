@@ -82,7 +82,6 @@ def policyIteration(policy, U):
         if unchanged:
             break
         printEnvironment(policy)
-    print(U)
     return policy
 
 # Print the initial environment
